@@ -20,7 +20,7 @@ public class Dialogue : MonoBehaviour
     public float textSpeed;
 
     [Header("角色")]
-    public Sprite face00,face01,face02,face03,face04,face05,face06,face07,face09,face10;
+    public Sprite face00,face01,face02,face03,face04,face05,face06,face07,face08,face09,face10;
 
     bool textFinished;//是否完成打字
     bool cancelTyping;//取消打字
@@ -174,6 +174,14 @@ public class Dialogue : MonoBehaviour
             case "H":
 
                 faceImage.sprite = face07;
+
+                index++;
+
+                break;
+
+            case "I":
+
+                faceImage.sprite = face08;
 
                 index++;
 
